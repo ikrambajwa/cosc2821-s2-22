@@ -1,6 +1,10 @@
 Configuring Cross-Account Access to AWS Resources
 
 Steps on Prod Account
-1)-Create S3 Bucket
-2)-Create IAM Policy
-3)-Create Create IAM Role
+1)-Create S3 Bucket and update in next step policy file.
+2)-Create IAM Policy (see prod-role-policy.json)
+3)-Create Create IAM Role and attach policy - step-2
+
+Steps on Dev Account
+2)-Create IAM Policy (see prod-role-policy.json)
+3)-Create Create IAM Role and attach policy - step-2
